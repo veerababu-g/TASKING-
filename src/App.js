@@ -21,7 +21,7 @@ export default function DailyPowerhousePlanner() {
   ];
 
   function minutesToTime(mins) {
-    const h = Math.floor(mins / 60) % 24;
+    const h = Math.floor(mins / 60) % 12;
     const m = mins % 60;
     return `${String(h).padStart(2,'0')}:${String(m).padStart(2,'0')}`;
   }
