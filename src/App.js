@@ -73,7 +73,7 @@ export default function DailyPowerhousePlanner() {
     return JSON.parse(JSON.stringify(obj));
   }
   function minsToTime(mins) {
-    const h = Math.floor(mins / 60) % 12;
+    const h = Math.floor(mins / 60) % 12 ;
     const m = mins % 60;
     return `${String(h).padStart(2, "0")}:${String(m).padStart(2, "0")}`;
   }
