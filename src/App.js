@@ -73,7 +73,7 @@ export default function DailyPowerhousePlanner() {
     return JSON.parse(JSON.stringify(obj));
   }
   function minsToTime(mins) {
-    const h = Math.floor(mins / 60) % 24;
+    const h = Math.floor(mins / 60) % 12;
     const m = mins % 60;
     return `${String(h).padStart(2, "0")}:${String(m).padStart(2, "0")}`;
   }
@@ -187,7 +187,8 @@ export default function DailyPowerhousePlanner() {
         {/* Header */}
         <header style={styles.header}>
           <div>
-            <h1 style={{ margin: 0 }}>10-Hour Powerhouse Planner</h1>
+            <h1 style={{ margin: 0 }}>VEERABABU DAILY PLAN</h1>
+            <h1 style={{ margin: 0 }}>10-Hour Powerhouse </h1>
             <div style={{ color: "#6b7280", marginTop: 6 }}>5×90 deep-focus schedule — time slots preserved</div>
             <div style={{ marginTop: 8, fontSize: 13, color: "#374151" }}>
               Date: <strong>{selectedDate.toDateString()}</strong>
