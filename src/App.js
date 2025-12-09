@@ -15,26 +15,26 @@ export default function DailyPowerhousePlanner() {
   const defaultBlocks = [
     { id: "t1", title: "Internship hunt", durationMin: 90, isBreak: false, done: false },
     { id: "b1", title: "Break #1", durationMin: 20, isBreak: true },
-    { id: "t2", title: "DSA + NxtWave revision", durationMin: 130, isBreak: false, done: false},
+    { id: "t2", title: "DSA", durationMin: 180, isBreak: false, done: false},
     { id: "b2", title: "Break #2", durationMin: 20, isBreak: true },
     {
       id: "t3",
-      title: "B.Tech Subjects",
+      title: "EMBEDDED SYSTEM",
       durationMin: 180,
       isBreak: false,
       done: false,
-      subtasks: ["Subject 1", "Subject 2", "Subject 3"],
+      subtasks: ["EMBEDDED SYSTEM LEARNING",  "EMBEDDED SYSTEM TASK"],
     },
     { id: "l", title: "Lunch + recharge", durationMin: 50, isBreak: true },
-    { id: "t4", title: "B.Tech Subjects",
-      durationMin: 90,
+    { id: "t4", title: "DEVOPS",
+      durationMin: 140,
       isBreak: false,
       done: false,
-      subtasks: ["Subject 1", "Subject 2", "Subject 3"], },
+      subtasks: ["DEVOPS  LEARNING",  "DEVOPS TASK 1"], },
     { id: "b3", title: "Break #3", durationMin: 20, isBreak: true },
     { id: "t5", title: "Embedded Systems", durationMin: 120, isBreak: false, done: false },
     { id: "b4", title: "Break #4", durationMin: 20, isBreak: true },
-    { id: "t3c", title: "B.Tech Practice", durationMin: 90, isBreak: false, done: false },
+    { id: "t3c", title: "B.Tech Practice", durationMin: 5, isBreak: false, done: false },
   ];
 
   // --- State ---
