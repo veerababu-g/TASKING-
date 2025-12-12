@@ -13,7 +13,7 @@ import React, { useEffect, useState } from "react";
 export default function DailyPowerhousePlanner() {
   // --- Defaults: the original time-slot blocks (keeps durations) ---
   const defaultBlocks = [
-    { id: "t1", title: "Internship hunt", durationMin: 90, isBreak: false, done: false },
+    { id: "t1", title: "Internship job  hunt", durationMin: 90, isBreak: false, done: false },
     { id: "b1", title: "Break #1", durationMin: 20, isBreak: true },
     { id: "t2", title: "DSA", durationMin: 180, isBreak: false, done: false},
     { id: "b2", title: "Break #2", durationMin: 20, isBreak: true },
@@ -34,7 +34,7 @@ export default function DailyPowerhousePlanner() {
     { id: "b3", title: "Break #3", durationMin: 20, isBreak: true },
     { id: "t5", title: "Embedded Systems", durationMin: 120, isBreak: false, done: false },
     { id: "b4", title: "Break #4", durationMin: 20, isBreak: true },
-    { id: "t3c", title: "B.Tech Practice", durationMin: 5, isBreak: false, done: false },
+    { id: "t3c", title: "job", durationMin: 5, isBreak: false, done: false },
   ];
 
   // --- State ---
